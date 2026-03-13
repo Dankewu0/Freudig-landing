@@ -1,0 +1,111 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  flex-direction: row;
+  color: #2c2c2c;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  min-height: 100vh;
+  position: sticky;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  flex-direction: row;
+  color: #2c2c2c;
+  background-color: #e6cfa8;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #2b2b2b;
+  transition: all;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  color: #2c2c2c;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  background-color: #fff8f0;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  flex-direction: column;
+  color: #2c2c2c;
+  background-color: #fff1e0;
+}
+
+#tech-stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+  flex-direction: column;
+  background-color: #ffe8d0;
+  color: #2c2c2c;
+}
+
+.svg-logo {
+  height: 55px;
+  width: 55px;
+}
+
+img {
+  max-width: 25%;
+  width: auto;
+}
+
+.svg-section {
+  display: flex;
+  gap: 24px;
+}
+
+.github-logo {
+  height: 45px;
+  width: 150px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "sass": "^1.98.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.577.0",
+    "prettier": "^3.8.1"
+  },
+  "scripts": {
+    "sass": "sass --watch scss:css"
+  }
+}
